@@ -1,0 +1,26 @@
+{
+  "name": "mdx-starter",
+  "version": "1.0.0",
+  "description": "- JavaScript runtime built on Chrome's V8 JavaScript engine. ---",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incessantmeraki/streams-nodesydneyoctober.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^1.7.7"
+  },
+  "dependencies": {
+    "grid-styled": "^5.0.2",
+    "react-syntax-highlighter": "^8.0.1"
+  }
+}
